@@ -878,6 +878,10 @@ static NSMutableArray *recentNonces;
 	return YES;
 }
 
+- (HTTPMessage *)request {
+	return request;
+}
+
 - (NSString *)requestURI
 {
 	if(request == nil) return nil;

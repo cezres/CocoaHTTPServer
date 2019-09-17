@@ -85,6 +85,7 @@
 - (NSDictionary *)parseParams:(NSString *)query;
 - (NSDictionary *)parseGetParams;
 
+- (HTTPMessage *)request;
 - (NSString *)requestURI;
 
 - (NSArray *)directoryIndexFileNames;
