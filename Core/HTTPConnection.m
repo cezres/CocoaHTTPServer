@@ -879,7 +879,7 @@ static NSMutableArray *recentNonces;
 }
 
 - (HTTPMessage *)request {
-	return request;
+	return self->request;
 }
 
 - (NSString *)requestURI
